@@ -9,7 +9,7 @@ const arrayPrimaParola = [];
 for (i = parola.length - 1; i >= 0; i--) {
     arrayPrimaParola.push(parola[i]);
 }
-console.log("array con lettere inserite al contrario: " + arrayPrimaParola);
+console.log("Array con lettere inserite al contrario: " + arrayPrimaParola);
 
 //creo la variabile che conterrà la mia parola processata
 let parolaPalindroma = "";
@@ -18,7 +18,7 @@ for(i = 0; i < arrayPrimaParola.length; i++) {
     parolaPalindroma = parolaPalindroma +  arrayPrimaParola[i];
 }
 
-console.log("Parola scritta al conrario " + parolaPalindroma);
+console.log("Parola scritta al contrario " + parolaPalindroma);
 
 //confronto la parola inserita con la mia variabile
 if (parola == parolaPalindroma) {
@@ -29,4 +29,4 @@ if (parola == parolaPalindroma) {
 
 const risultato = palindroma(primaParola);
 
-console.log(risultato);
+console.log("La parola inserita è una " + risultato);
